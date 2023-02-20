@@ -225,6 +225,10 @@ hr:before {
     overflow: hidden;
 }
 
+#toggle-sidebar {
+  bottom: 80px
+}
+
 /* 夜间模式菜单栏发光字 */
 [data-theme="dark"] #nav .site-page,
 [data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {
@@ -352,7 +356,7 @@ hr:before {
     position: fixed;
     /* 指定位置 */
     left: 10px;
-    bottom: 80px;
+    bottom: 10px;
     z-index: 1919810;
   }
   [data-theme="light"] #fps {
