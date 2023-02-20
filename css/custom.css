@@ -320,7 +320,7 @@ hr:before {
 .el-input.el-input--small.el-input-group.el-input-group--prepend::before {
     /* 先隐藏起来 */
     /*display: none;*/
-    display: inline;
+    display: inline-block;
     /* 绝对定位 */
     position: absolute;
     /* 向上移动60像素 */
