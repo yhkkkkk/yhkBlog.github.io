@@ -319,7 +319,8 @@ hr:before {
 /* 主内容区 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend::before {
     /* 先隐藏起来 */
-    display: none;
+    /*display: none;*/
+    display: inline;
     /* 绝对定位 */
     position: absolute;
     /* 向上移动60像素 */
@@ -356,7 +357,7 @@ hr:before {
     position: fixed;
     /* 指定位置 */
     left: 10px;
-    bottom: 10px;
+    bottom: 320px;
     z-index: 1919810;
   }
   [data-theme="light"] #fps {
